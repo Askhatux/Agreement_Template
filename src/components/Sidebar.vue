@@ -1,20 +1,20 @@
 <template>
   <div class="sidebar">
-    <input v-model="datetime" placeholder="1" />
-    <input v-model="individual" placeholder="2" />
-    <input v-model="number" placeholder="3" />
-    <input v-model="kem" placeholder="4" />
-    <input v-model="address" placeholder="5" />
-    <input v-model="tenge" placeholder="6" />
-    <input v-model="fio" placeholder="7" />
-    <input v-model="registration" placeholder="8" />
-    <input v-model="living" placeholder="9" />
-    <input v-model="telnumber" placeholder="10" />
-    <input v-model="mail" placeholder="11" />
-    <input v-model="iin" placeholder="12" />
-    <input v-model="number1" placeholder="13" />
-    <input v-model="kogda" placeholder="14" />
-    <input v-model="kem1" placeholder="15" />
+    <input v-model="datetime" placeholder="Заполните дату (1)" title="Дата"/>
+    <input v-model="individual" placeholder="Ваше ФИО (2)" />
+    <input v-model="number" placeholder="Номер документа (3)" />
+    <input v-model="kem" placeholder="Орган выдачи (4)" />
+    <input v-model="address" placeholder="Адрес проживания (5)" />
+    <input v-model="tenge" placeholder="Сумма в тенге (6)" />
+    <input v-model="fio" placeholder="Ваше ФИО (7)" />
+    <input v-model="registration" placeholder="Регистрация (8)" />
+    <input v-model="living" placeholder="Место жительства (9)" />
+    <input v-model="telnumber" placeholder="Номер телефона (10)" />
+    <input v-model="mail" placeholder="Почтовый адрес (11)" />
+    <input v-model="iin" placeholder="ИИН (12)" />
+    <input v-model="number1" placeholder="Номер документа (13)" />
+    <input v-model="kogda" placeholder="Срок выдачи удос-я (14)" />
+    <input v-model="kem1" placeholder="Орган выдачи документа (15)" />
     <button @click="updateAgreement">Update Agreement</button>
   </div>
 </template>
